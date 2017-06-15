@@ -1,0 +1,52 @@
+body {
+	width: 400px;
+	margin: 0 auto;
+}
+
+form {
+	background-color: #F1F1F1;
+	margin-top: 20px; 
+}
+
+form legend {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+input[type=text], input[type=password], div.gender {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.gender {
+	background-color: #fff;
+}
+
+.clearfix input {
+	padding: 5px 20px;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+}
+
+input[type=reset] {
+	background-color: #F44336;
+}
+
+
+form label {
+	font-weight: bold;
+}
+
+label.incorrect {
+	color: #F44336;
+}
+
+input.incorrect, div.incorrect {
+	border: 1px solid #F44336;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>ValidForm | Lesson 2 Lavrik</title>
+		<link rel="stylesheet" href="css/validForm.css">
+	</head>
+	<body>
+
+		<form name="signUpForm" onsubmit="return validateForm()" action="https://w3schools.com">
+			<fieldset>
+				<legend>Signup Form:</legend>
+				<label for="fname">First name:</label>
+				<input type="text" name="fname">
+				<label for="lname">Last name:</label>
+				<input type="text" name="lname">
+				<label for="email">E-mail:</label>
+				<input type="text" name="email">
+				<label for="gender">Gender:</label>
+				<div class="gender">
+					<input type="radio" name="gender" id="male" value="male"> Male <input type="radio" name="gender" id="female" value="female"> Female <input type="radio" name="gender" id="other" value="other"> Other
+				</div>
+				<label for="psw">Password:</label>
+				<input type="password" name="psw">
+				<label for="repsw">Repeat Password:</label>
+				<input type="password" name="repsw">
+				<div class="clearfix">
+					<input type="submit" value="Send">
+					<input type="reset" value="Reset">
+				</div>
+			</fieldset>
+		</form>
+
+		<script src='js/validForm.js'></script>
+	</body>
+</html>
